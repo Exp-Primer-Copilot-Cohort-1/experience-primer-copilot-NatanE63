@@ -1,6 +1,4 @@
-const http = require("http");
-
-// create a web server
+// Create web server
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain");
